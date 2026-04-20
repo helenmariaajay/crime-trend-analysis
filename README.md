@@ -1,4 +1,7 @@
-# Statistical Analysis and Modeling of Urban Crime Patterns using Chicago Crime Dataset
+# Statistical Analysis and Modeling of Urban Crime Patterns  
+### Using the Chicago Crime Dataset
+
+> A statistical and machine learning-based analysis of urban crime patterns using real-world data.
 
 ##  Overview
 This project presents a comprehensive statistical analysis of urban crime patterns using the Chicago Crime Dataset (2012–2017). The objective is to identify trends, examine relationships between crime characteristics, and model the probability of arrest using statistical and machine learning techniques.
@@ -35,6 +38,7 @@ The study applies descriptive analysis, hypothesis testing, probability estimati
 ---
 
 ##  Dataset
+- 🔗 Dataset Link: https://www.kaggle.com/datasets/currie32/crimes-in-chicago
 - **Source:** Chicago Police Department (CLEAR system) via Kaggle  
 - **Time Period:** 2012–2017  
 - **Sample Size:** 100,000 records (random sample)  
@@ -73,10 +77,28 @@ The study applies descriptive analysis, hypothesis testing, probability estimati
 - Model trained using scikit-learn  
 - Evaluated using accuracy, precision, recall, and F1-score  
 
-### 6. Visualization
-- Bar charts (crime distribution, arrest distribution)  
-- Line plots (trend analysis)  
-- Heatmaps (crime type vs arrest relationship)  
+## Sample Visualizations
+
+### 🔹 Top Crime Types
+![Top Crime Types](images/top_crime_types.png)
+
+### 🔹 Arrest Distribution
+![Arrest Distribution](images/arrest_distribution.png)
+
+### 🔹 Year-wise Crime Trend
+![Year Trend](images/yearly_trend.png)
+
+### 🔹 Monthly Crime Trend
+![Monthly Trend](images/monthly_trend.png)
+
+### 🔹 Heatmap (Crime vs Arrest)
+![Heatmap](images/heatmap_raw.png)
+
+### 🔹 Normalized Heatmap (Probability)
+![Normalized Heatmap](images/heatmap_normalized.png)
+
+### 🔹 Probability of Arrest
+![Probability](images/probability_bar.png)
 
 ---
 
@@ -89,6 +111,12 @@ The study applies descriptive analysis, hypothesis testing, probability estimati
 - Certain crimes (e.g., Narcotics, Prostitution) show much higher arrest likelihood  
 
 ---
+
+## Key Insights
+- Crimes where offenders are caught in real-time (e.g., Narcotics) show very high arrest rates  
+- Property crimes (e.g., Theft, Burglary) have significantly lower arrest probabilities  
+- Crime patterns show strong seasonal trends, peaking in summer months  
+- Arrest likelihood is highly dependent on crime category  
 
 ## Technologies Used
 - Python  
@@ -127,8 +155,6 @@ crime-trend-analysis/
    jupyter notebook
    ```
 4. Run all cells in `crime_analysis.ipynb`
-
----
 
 ---
 
