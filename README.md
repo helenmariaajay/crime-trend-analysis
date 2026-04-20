@@ -5,6 +5,11 @@ This project presents a comprehensive statistical analysis of urban crime patter
 
 The study applies descriptive analysis, hypothesis testing, probability estimation, and logistic regression to extract meaningful insights from large-scale real-world crime data.
 
+## Key Results
+- Logistic Regression Accuracy: **~86%**
+- Significant association between crime type and arrest (p < 0.001)
+- Theft & Battery are most frequent crimes
+- Narcotics & Prostitution show highest arrest probability
 ---
 ## Key Topics Covered
 - Exploratory Data Analysis (EDA)  
@@ -124,12 +129,6 @@ crime-trend-analysis/
 4. Run all cells in `crime_analysis.ipynb`
 
 ---
-
-## Key Insights
-- Arrest likelihood strongly depends on crime type  
-- Property crimes tend to have lower arrest rates  
-- Crimes involving direct enforcement (e.g., narcotics) show high arrest rates  
-- Time-based trends reveal seasonal and yearly variations  
 
 ---
 
